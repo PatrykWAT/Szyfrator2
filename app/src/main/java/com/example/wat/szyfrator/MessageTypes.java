@@ -1,0 +1,17 @@
+package com.example.wat.szyfrator;
+
+public enum MessageTypes {
+
+    USER_REGISTER_MESSAGE,
+    USER_LOGIN_MESSAGE,
+
+    RESPONSE_REGISTER_MESSAGE,
+    RESPONSE_LOGIN_MESSAGE,
+
+    NEW_CONVERSATION_REQUEST,
+    NEW_CONVESATION_RESPONSE,
+
+    INITIAL_MESSAGE,
+    FINAL_MESSAGE,
+
+}
